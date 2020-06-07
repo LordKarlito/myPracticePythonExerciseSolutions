@@ -19,7 +19,6 @@ def guess():
         firstguess = input("is your number {}?[Y/N]".format(num)).capitalize()
         if firstguess == 'Y':
             return("nice")
-            correct = True
 
         elif firstguess == 'N':
             compare = input("Is your number less than or greater than {}? [</>]".format(num))
