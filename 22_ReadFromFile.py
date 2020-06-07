@@ -34,7 +34,7 @@ print(unique_dict)
 # Solution for the extra challenge
 
 #open the file
-with open('listOfFiles.txt', 'r') as open_file:
+with open('txt files/listOfFiles.txt', 'r') as open_file:
     all_text = open_file.read()
 
 #Split string into lines

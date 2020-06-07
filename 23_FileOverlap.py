@@ -6,10 +6,10 @@ Given two .txt files that have lists of numbers in them, find the numbers that a
 """
 
 #open the file
-with open('23_primes.txt', 'r') as open_file:
+with open('txt files/23_primes.txt', 'r') as open_file:
     primes = open_file.read()
 
-with open('23_happy.txt', 'r') as open_file:
+with open('txt files/23_happy.txt', 'r') as open_file:
     happy = open_file.read()
 
 listPrimes = primes.split('\n')
